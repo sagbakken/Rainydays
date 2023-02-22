@@ -4,42 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jackets</title>
 </head>
 <head>
-    <title>Rainy days | Home</title>
+    <title>Rainy days | Jackets </title>
     <meta name="An online shop selling mens and womens jackets. Designed for a range of different outdoor activities that enriches people's lives." content="The homepage of Rainydays.com." />
     <meta name="viewport" content=width=device-width, initial-scale=1" /> 
+    <link href="css/Global.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
     </head>
-</body>
-<header>
-    <img src="images/Rainydays_logo.png" alt="Logo for Rainydays">
-    <nav>
-        <ul>
-            <li>Woman</li>
-            <li>Men</li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <img src="images/Fjellturer.jpg">
-            <h1> Welcome to Rainy days</h1>
-            <p>RAINYDAYS offers a range of jackets at a reasonable price without compromising on quality. </p>
-        </section>
-        <section>
+<body>
+<section>
+     <div class="navbar">
+         <nav>
+              <a href="Index.html" class="split-content header-left">
+              <img src="/Images/Rainydays_logo.png" alt="logo for rainydays">
+              </a>
+          <ul>
+             <li> <a href=Jackets.html>WOMEN</a></li>
+             <li> <a href=Jackets.html>MEN</a></li>
+          </ul>
+         </nav>
+     </div>
+</section>
+<main class="main-index">
+ <section class="hero">
+            <img src="/Images/Fjellturer.jpg" alt="hiking" class="hero-images">
+              <div class="overlay-white">
+                <h1> Welcome to Rainy days</h1>
+                <p>RAINYDAYS offers a range of jackets at a reasonable price without compromising on quality.</p>
+              </div>
+ </section>              
+ <section>
+        <div class="smal-container">
+          <div class="USP">
             <li>Free delivery</li>
+          </div>
+
+          <div class="USP">
             <li>Easy return</li>
+          </div>
+
+          <div class="USP">
             <li>Quick delivery</li>
-        </section>
-        <section>
-            <img src="images/Skogstur_dame.jpg"> 
-            <img src="images/Skogstur_mann.jpg"> 
-        </section>
-    </main>
-    <footer>
+          </div>
+        </div>
+</section>
+        
+
+<main class="main-index">
+        <div class="cards">
+            <div class="card">
+              <img src="/Images/Jacket_1.png">
+              <button id="shop">
+               <a href="/Jackets.html"> <h2>SHOP WOMEN</h2></a>
+              </button>
+            </div>
+    
+         <div class="card">
+            <img src="/Images/Jacket_2.png">
+            <button id="shop">
+             <a href="/Jackets.html"> <h2>SHOP MEN</h2></a>
+            </button>
+         </div>
+</main>
+    <div class="footer">
+     <footer>
         <a href="About.html">About</a>
         <a href="Contact.html">Contact</a>
-      </footer>
-    </body>
-</header>
+     </footer>
+    </div>
+</body>
 </html>
