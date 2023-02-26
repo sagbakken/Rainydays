@@ -36,32 +36,22 @@
         <h1>Jacket 3</h1>
         <h2>Price 1 200 NOK</h2>
         
-        <div class="sizes">
-        <button id="size">
-            <a href="S">
-            <p>S</p>
-            </button>
+       <form action="/Checkout.html">
+        <label for="zizes">Choose size:</label>
+        <select name=zizes" id="zizes">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Xtra-large</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Add to cart">
+      </form>
 
-        <button id="size">
-            <a href="M">
-            <p>M</p>
-            </button>
-
-
-        <button id="size">
-            <a href="L">
-            <p>L</p>
-            </button>
-
-        <button id="size">
-            <a href="XL">
-            <p>XL</p>
-            </button>   
-    </div>
-
-    <button id="add-to-cart">
-        <p>Add to cart</p>
-    </button>
+      <h2>Description</h2>
+      <div class="descriptionContainer">
+        <p>This is a fucking description!!!!</p>  
+      </div>
 
 </main>
 </body>
