@@ -8,6 +8,15 @@
   z-index: 100;
 }
 
+@media (min-width: 400px) {
+  .navbar {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen {
+  
+}
 
 .nav-link {
     font-size: 20px;
@@ -37,8 +46,15 @@
   bottom: 0;
   width: 100%;
   background-color: #6ca6c1;
-  text-align: center;
-  overflow: hidden;
+  text-align: left;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
+  color: white;
    }
+
+
+   .footer a {
+   color: white;
+   text-decoration: underline;
+     }
