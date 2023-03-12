@@ -66,10 +66,9 @@ columns: 3;
   padding-bottom: 60px;
 }
 
-.container test { 
-  width: 100%;
+.container test{
   height: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -78,7 +77,6 @@ columns: 3;
   justify-content: space-between;
   -ms-flex-align: center;
   align-items: center;
-
 }
 
 
@@ -412,7 +410,7 @@ img {
 
 
 .checkout {
-  font-family: sans-serif;
+  font-family: Arial;
   font-size: 17px;
   background-color: white;
   padding-top: 200px;
@@ -427,8 +425,8 @@ h1 {
 }
 
 .row {
-  padding-top:20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap; 
@@ -459,9 +457,16 @@ h1 {
 
 .container {
   background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
+  padding: 5px 10px 15px 20px;
   border: 1px solid lightgrey;
   width: 85%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 input[type=text] {
@@ -515,8 +520,8 @@ span.price {
   color: grey;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
+/* Responsive layout */
+@media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
   }
