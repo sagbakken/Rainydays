@@ -11,11 +11,9 @@
     overflow: hidden;
 }
 
-.smal-container li {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
+.smal-container {
+  color: black;
+
   text-decoration: none;
   font-size: 25px;
   line-height: 10px;
@@ -54,8 +52,12 @@
 }
 
 .usp {
-display: inline-block;
+display: flex;
 justify-content: center;
+text-align: center;
+padding: 20px;
+margin: 20px;
+columns: 3;
 }
 
 .section-hero {
@@ -78,7 +80,6 @@ justify-content: center;
   align-items: center;
 
 }
-
 
 
 .columns {
@@ -230,7 +231,7 @@ justify-content: center;
 
 .main-spesific {
   max-width: 1000px;
-  margin-bottom: 110px;
+  margin-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 60px;
@@ -239,6 +240,7 @@ justify-content: center;
 .product-detail {
   max-width: 1000px;
   margin: 10px;
+
 }
 
 
