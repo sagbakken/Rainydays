@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rainydays | Home</title>
     <meta name="An online shop selling mens and womens jackets. Designed for a range of different outdoor activities that enriches people's lives." content="The homepage of Rainydays.com." />
-    <meta name="viewport" content=width=device-width, initial-scale=1" /> 
-    <link href="css/Global.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/5405f2f7b8.css" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=opensans">
+    <link href="css/Global.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/5405f2f7b8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<section>
-     <div class="navbar">
-         <nav>
-              <a href="Index.html" class="split-content header-left">
-              <img src="/Images/Rainydays_logo.png" alt="logo for rainydays">
-              </a>
-          <ul>
-             <li> <a href=Jackets.html class="nav-link">WOMEN</a></li>
-             <li> <a href=Jackets.html class="nav-link">MEN</a></li>
-          </ul>
-         </nav>
-     </div>
-</section>
+<header class="navbar">
+  <div>
+    <a href="Index.html">
+        <img src="/Images/Rainydays_logo.png" class="logo" alt="logo for rainydays">
+         </a>
+   </div>
+   <nav>
+      <ul>
+       <li> <a href="Jackets.html" class="nav-link">WOMEN</a></li>
+       <li> <a href="Jackets.html" class="nav-link">MEN</a></li>
+      </ul>
+  </nav>
+</header>
 <main class="main-index">
   <div class="hero-image">
     <img src="/Images/Fjellturer.jpg" alt="hiking">
@@ -35,40 +36,31 @@
   </div>              
  <section>
         <div class="smal-container">
-          <div class="USP">
+          <div class="usp">
             <li>Free delivery</li>
           </div>
-
-          <div class="USP">
+          <div class="usp">
             <li>Easy return</li>
           </div>
-
-          <div class="USP">
+          <div class="usp">
             <li>Quick delivery</li>
           </div>
         </div>
 </section>
-        
-
-<main class="main-index">
-        <div class="cards">
-            <div class="card-w">
-              <button class="button-short">
-               <a href="/Jackets.html"> <h2>SHOP WOMEN</h2></a>
-              </button>
-            </div>
-    
-         <div class="card-m">
-            <button class="button-short">
-             <a href="/Jackets.html"> <h2>SHOP MEN</h2></a>
-            </button>
-         </div>
+<section>
+    <div class="card">
+      <div class="card card-w">
+          <a class="button-short" href="/Jackets.html">SHOP WOMEN</a>
+      </div>
+      <div class="card card-m">
+          <a class="button-short" href="/Jackets.html">SHOP MEN</a>
+      <div>
+   </div>
+</section>
 </main>
-    <div class="footer">
-     <footer>
+<footer>
         <a href="About.html">About</a>
         <a href="Contact.html">Contact</a>
-     </footer>
-    </div>
+</footer>
 </body>
 </html>

@@ -1,44 +1,59 @@
 /* Index */
 
-.hero-images {
-  width: 100%
-}
-
-li {
-    display: inline;
-  }
-
-  body {
-    margin: 0px;
-  }
-
-  .logo {
-    max-width: 300px;
-    margin-left: 30px;
-  }
 
 .smal-container {
     background-color: #6ca6c1;
     text-align: center;
     overflow: hidden;
-    padding: 40px;
+    padding: 20px;
     top: 0;
     width: cover;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .smal-container li {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 30px;
-    width: cover;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 10px;
+  width: cover;
 }
 
-.USP {
+.contact-container {
+  background-color: #6ca6c164;
+  text-align: center;
+  padding: 30px;
+  top: 0;
+  width: cover;
+  overflow: hidden
+ 
+}
+
+
+.contact-container a {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.contactinformation {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+.usp {
 display: inline-block;
 justify-content: center;
 }
@@ -61,7 +76,7 @@ justify-content: center;
   justify-content: space-between;
   -ms-flex-align: center;
   align-items: center;
-  
+
 }
 
 
@@ -91,111 +106,118 @@ justify-content: center;
   color: black;
 }
 
+.hero-image {
+  width: 100%
+}
 
-   .main-index {
-    max-width: 1480px;
+.text-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  background:white;
+  text-align: center;
+  color: black;
+
+}
+
+.text-container a{
+  margin-top: 40px;
+  text-align: center;
+  color: black;
+
+}
+
+
+.main-index {
     margin: 0;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
+}
   
   
-  .hero {
+.hero {
     position: relative;
-  }
+}
   
-  .cards-sex {
-    width: 1480px;
-    margin-top: 20px;
-  }
   
-  .cards {
+.card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 10px;
     gap: 20px;
     padding-bottom: 20px;
-  }
+    padding-top: 20px;
+    min-height: 120px;
+    padding: 20px;
+    text-align: center;
+    position: static;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+}
   
-  .card-w {
-    min-height: 15cm;
-    padding: 20px;
-    text-align: center;
-    background-color: lightgrey;
-    position: static;
-    display: block;
-    background-image: url(/Images/Skogstur_dame.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+.card-w {
+    background-image: url(/Images/Skogstur_dame.jpg);  
+}
 
-  .card-m {
-    min-height: 15cm;
-    padding: 20px;
-    text-align: center;
-    background-color: lightgrey;
-    position: static;
-    display: block;
+.card-m {
     background-image: url(/Images/Skogstur_mann.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+}
 
 
-  .button-short {
+.button-short {
     background-color: yellow;
     color: black;
-    padding: 5px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
     margin: 10px 0;
-    border: none;
-    width: 80%;
+    width: 100%;
     cursor: pointer;
     font-size: 17px;
-    margin-top: 650px;
-  }
+    margin-top: 550px;
 
-  .button-short a {
+}
+
+.button-short a {
     text-decoration: none;
     color: black;
-  }
+}
   
-  .button-short:hover a {
+.button-short:hover a {
     text-decoration: none;
     color: white
-  }
+}
   
 
-  .button-short:hover {
+.button-short:hover {
     background-color: black;
     color: white;
-  }
+}
   
   
-  @media(min-width: 300px) {
-    .cards {
+@media(min-width: 300px) {
+    .card {
       grid-template-columns: 1fr;
     }
-  }
-  @media(min-width: 500px) {
-    .cards {
+}
+  
+@media(min-width: 500px) {
+    .card {
       grid-template-columns: 1fr;
     }
-  } 
-  @media(min-width: 700px) {
-    .cards {
+} 
+ 
+@media(min-width: 1000px) {
+    .card {
       grid-template-columns: 1fr 1fr;
     }
-  }
-  @media(min-width: 1000px) {
-    .cards {
-      grid-template-columns: 1fr 1fr;
-    }
-  }   
+}   
 
 #shop {
   padding-left: 10px;
@@ -207,18 +229,18 @@ justify-content: center;
 /* jackets spesific */
 
 .main-spesific {
-  max-width: auto;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin-bottom: 110px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 .product-detail {
   max-width: 1000px;
   margin: 10px;
 }
+
 
 .sizes {
   display: flex;
@@ -277,7 +299,7 @@ figure {
  margin: 10px;
 }
 
-#zizes {
+#sizes {
   background-color: d9d9d9;
   color: black;
   padding: 16px;
@@ -285,7 +307,7 @@ figure {
   border: none;
   width: 100%;
   cursor: pointer;
- }
+}
 
 
  input[type=submit] {
@@ -298,7 +320,7 @@ figure {
   width: 100%;
   cursor: pointer;
   font-size: 17px;
- }
+}
 
 input[type=submit]:hover {
   background-color: black;
@@ -308,18 +330,18 @@ input[type=submit]:hover {
 .descriptionContainer {
   background-color: gainsboro;
   width: 100%;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
- }
+}
 
-@media(min-width: 400px) {
+@media(min-width: 300px) {
   .main-spesific {
     grid-template-columns: 1fr;
   }
 }
 
-@media(min-width: 600px) {
+@media(min-width: 800px) {
   .main-spesific {
     grid-template-columns: 1fr 1fr;
   }
@@ -350,7 +372,7 @@ input[type=submit]:hover {
 .product {
   padding: 20px;
   background-color: lightgrey;
-  }
+}
 
 .productDescription {
   display: flex;
@@ -395,7 +417,7 @@ img {
 }
 
 h1 {
-  text-align: center;
+  
 }
 
 * {
