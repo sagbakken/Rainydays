@@ -42,7 +42,7 @@ height: 100%
 }
 
 
-nav ul {
+navbar ul {
   float: right;
   display: flex;
   flex-direction: row;
@@ -57,12 +57,21 @@ nav ul li {
 }
 
 nav ul li a{
+  font-size: 25px;
   color: black;
   padding: 10px 15px;
   font-size: 15px;
   text-transform: uppercase;
 }
 
+.nav-link {
+  font-size: 20px;
+  font-family: helvetica;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin: 0 5px;
+}
 
 @media (max-widt: 1080px) {
   ul li {
@@ -106,10 +115,31 @@ footer {
   position: relative;
 }
 
-  
-
 
 footer a {
    color: black;
    text-decoration: underline;
+}
+
+
+p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 10px;  
+}
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 10px;  
+}
+
+a {
+  font-family: sans-serif;
+  color: black;
 }
