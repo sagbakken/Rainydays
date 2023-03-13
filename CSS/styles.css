@@ -292,7 +292,7 @@ columns: 3;
 }
 
 figure {
- background-color: grey;
+ background-color: #6ca6c1;
  margin: 10px;
 }
 
@@ -370,7 +370,7 @@ input[type=submit]:hover {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  background-color: lightgrey;
+  background-color: #6ca6c1;
 }
 
 .product a {
